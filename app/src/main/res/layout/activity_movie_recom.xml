@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MovieRecom">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:text="电影推荐"/>
+    </TableRow>
+
+    <TableRow>   <!--第一行-->
+        <ImageView
+            android:id="@+id/mImageView1"
+            android:layout_width="650px"
+            android:layout_height="800px"
+            android:src="@drawable/img1" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100px"
+            android:layout_height="800px" />
+        <ImageView
+            android:id="@+id/mImageView2"
+            android:layout_width="650px"
+            android:layout_height="800px"
+            android:src="@drawable/img2" />
+    </TableRow>
+
+    <TableRow>   <!--文本第一行-->
+        <TextView
+            android:id="@+id/mText1"
+            android:layout_width="650px"
+            android:layout_height="100px"
+            android:text="大侦探皮卡丘"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100px"
+            android:layout_height="100px" />
+        <TextView
+            android:id="@+id/mText2"
+            android:layout_width="650px"
+            android:layout_height="100px"
+            android:text="一条狗的使命"/>
+    </TableRow>
+
+    <TableRow>   <!--下载图标第一行-->
+        <ImageView
+            android:id="@+id/mDown1"
+            android:layout_width="650px"
+            android:layout_height="100px"
+            android:src="@drawable/img5"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100px"
+            android:layout_height="100px" />
+        <ImageView
+            android:id="@+id/mDown2"
+            android:layout_width="650px"
+            android:layout_height="100px"
+            android:src="@drawable/img5"/>
+    </TableRow>
+
+    <TableRow>   <!--空行-->
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="650px"
+            android:layout_height="50px" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="100px"
+            android:layout_height="50px" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="650px"
+            android:layout_height="50px" />
+    </TableRow>
+
+    <TableRow>   <!--第二行-->
+        <ImageView
+            android:id="@+id/mImageView3"
+            android:layout_width="650px"
+            android:layout_height="800px"
+            android:src="@drawable/img3" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100px"
+            android:layout_height="800px" />
+        <ImageView
+            android:id="@+id/mImageView4"
+            android:layout_width="650px"
+            android:layout_height="800px"
+            android:src="@drawable/img4" />
+    </TableRow>
+
+    <TableRow>   <!--文本第二行-->
+        <TextView
+            android:id="@+id/mText3"
+            android:layout_width="650px"
+            android:layout_height="100px"
+            android:text="何以为家"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100px"
+            android:layout_height="100px" />
+        <TextView
+            android:id="@+id/mText4"
+            android:layout_width="650px"
+            android:layout_height="100px"
+            android:text="绿皮书"/>
+    </TableRow>
+
+    <TableRow>  <!--下载图标第二行-->
+    <ImageView
+        android:id="@+id/mDown3"
+        android:layout_width="650px"
+        android:layout_height="100px"
+        android:src="@drawable/img5"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100px"
+        android:layout_height="100px" />
+    <ImageView
+        android:id="@+id/mDown4"
+        android:layout_width="650px"
+        android:layout_height="100px"
+        android:src="@drawable/img5"/>
+    </TableRow>
+
+</TableLayout>
